@@ -1,4 +1,4 @@
-def fruits_replacer(fruits):
+def fruits_replacer(fruits: list[str]) -> list[str] | str:
     try:
         fruits[0], fruits[-1] = 'Персик', 'Абрикос'
         return fruits
